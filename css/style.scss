@@ -20,7 +20,7 @@ $primary: #0a0a0a;
 $secondary: #FF7B7B;
 
 %opensans { font-family: 'Open Sans', sans-serif; }
-%librebaskerville { font-family: 'Libre Baskerville', serif; }
+%lora { font-family: 'Lora', serif; }
 
 /*--------------------------------------------------------------
 	1.0 Defaults
@@ -39,7 +39,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  @extend %librebaskerville;
+  @extend %lora;
   font-weight: 700;
   color: #4C014C;
 }
